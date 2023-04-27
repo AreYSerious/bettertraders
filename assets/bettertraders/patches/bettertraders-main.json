@@ -1,0 +1,119 @@
+[
+  // New Traders
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value":   {
+      "code": "tradercavaran",
+      "group": "trader",
+      "minGroupDistance": 100, //600
+      "name": "Trader Wagon",
+      "chance": 1.5,
+      "offsetY": 0,
+      "schematics": [
+        "overground/traderwagons/*"
+      ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "packeddirt",
+        "game:packeddirt",
+        "cob-none",
+        "game:cob-none"
+      ],
+      "postPass": true,
+      "suppressTrees": true,
+      "placement": "surface"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value":   {
+      "code": "tradercavaran",
+      "group": "trader",
+      "minGroupDistance": 100, //600
+      "name": "Trader Wagons with Tent",
+      "chance": 6,
+      "offsetY": -1,
+      "schematics": [
+        "overground/traderwagonswithtent/*"
+      ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "packeddirt",
+        "game:packeddirt",
+        "cob-none",
+        "game:cob-none"
+      ],
+      "postPass": true,
+      "suppressTrees": true,
+      "placement": "surface"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value":   {
+      "code": "tradercavaran",
+      "group": "trader",
+      "minGroupDistance": 100, //600
+      "name": "Rusty Trader Wagons RARE",
+      "chance": 0.1,
+      "offsetY": 0,
+      "schematics": [
+        "overground/rustytraders-rare/*"
+      ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "packeddirt",
+        "game:packeddirt",
+        "cob-none",
+        "game:cob-none"
+      ],
+      "postPass": true,
+      "suppressTrees": true,
+      "placement": "surface"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value":   {
+      "code": "tradercavaran",
+      "group": "trader",
+      "minGroupDistance": 100, //600
+      "name": "Trader Wagon",
+      "chance": 1.5,
+      "offsetY": -1,
+      "schematics": [
+        "overground/rustytraders-withtent/*"
+      ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "packeddirt",
+        "game:packeddirt",
+        "cob-none",
+        "game:cob-none"
+      ],
+      "postPass": true,
+      "suppressTrees": true,
+      "placement": "surface"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  }
+]

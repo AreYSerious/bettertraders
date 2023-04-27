@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "bettertraders",
+  "name": "BetterTraders",
+  "description" : "Replaces vanilla traders with new structures.",
+  "authors": ["NiclAss", "StAdrian"],
+  "version": "0.0.1",
+  "dependency": {
+    "game": ""
+  }
+}
