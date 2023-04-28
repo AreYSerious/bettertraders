@@ -6,9 +6,9 @@
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 100, //600
+      "minGroupDistance": 600, //600
       "name": "Trader Wagon",
-      "chance": 1.5,
+      "chance": 0.5,
       "offsetY": 0,
       "schematics": [
         "overground/traderwagons/*"
@@ -35,7 +35,7 @@
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 100, //600
+      "minGroupDistance": 600, //600
       "name": "Trader Wagons with Tent",
       "chance": 6,
       "offsetY": -1,
@@ -64,9 +64,9 @@
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 100, //600
+      "minGroupDistance": 600, //600
       "name": "Rusty Trader Wagons RARE",
-      "chance": 0.1,
+      "chance": 0.05,
       "offsetY": 0,
       "schematics": [
         "overground/rustytraders-rare/*"
@@ -93,9 +93,9 @@
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 100, //600
+      "minGroupDistance": 600, //600
       "name": "Trader Wagon",
-      "chance": 1.5,
+      "chance": 1,
       "offsetY": -1,
       "schematics": [
         "overground/rustytraders-withtent/*"
