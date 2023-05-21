@@ -1,0 +1,36 @@
+[
+  // New Traders
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+                "code": "ruinedvillage",
+                "chance": 0.0005, //0.005
+                "generator": "LooselyGrouped",
+                "quantityStructures": { "avg": 2.5, "var": 0.5 },
+                "schematics": [
+                  { "path": "overground/rustytraders-notent-rare/*", "offsetY": 0, "weight": 10 },
+                  { "path": "overground/rustytraders-notent-normal/*", "offsetY": 0, "weight": 100 },
+                  { "path": "overground/rustytraders-withtent/*", "offsetY": -1, "weight": 10 },
+                  { "path": "overground/rustytraders-rare/*", "offsetY": 0, "weight": 5 },
+                  { "path": "overground/rustytraders-rare-o1/*", "offsetY": -1, "weight": 5 }
+                ],
+                "buildProtected": true,
+                "buildProtectionName": "Trader",
+                "buildProtectionDesc": "Trader Perimenter",
+                "postPass": true,
+                "suppressTrees": true,
+                "group": "trader",
+                "minGroupDistance": 700, //700
+                "name": "Trader Wagon",
+                "replacewithblocklayers": [
+                  "packeddirt",
+                  "game:packeddirt",
+                  "cob-none",
+                  "game:cob-none"
+                ]
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  }
+]
