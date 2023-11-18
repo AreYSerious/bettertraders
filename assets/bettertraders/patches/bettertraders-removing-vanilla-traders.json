@@ -1,19 +1,19 @@
 [
   {
     "op": "replace",
-    "path": "/structures/26/chance",
+    "path": "/structures/20/chance",
     "value": 0,
     "file": "game:worldgen/structures.json"
   },
   {
     "op": "replace",
-    "path": "/structures/27/chance",
+    "path": "/structures/21/chance",
     "value": 0,
     "file": "game:worldgen/structures.json"
   },
   {
     "op": "replace",
-    "path": "/structures/28/chance",
+    "path": "/structures/22/chance",
     "value": 0,
     "file": "game:worldgen/structures.json"
   }
