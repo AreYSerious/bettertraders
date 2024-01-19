@@ -4,9 +4,9 @@
   "name": "BetterTraders",
   "description" : "Replaces vanilla traders with new structures.",
   "authors": ["NiclAss", "StAdrian"],
-  "requiredOnClient": false,
-  "version": "0.0.3",
+  "side": "Server",
+  "version": "0.0.4",
   "dependency": {
-    "game": ""
+    "game": "1.19.0"
   }
 }
