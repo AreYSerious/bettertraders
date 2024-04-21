@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "patches": {
+    "number": {
+      "bettertraders:patches/bettertraders-main.json": {
+        "0/value/chance": "TRADERWAGONS_SPAWN_CHANCE * 0.5",
+        "1/value/chance": "TRADERWAGONS_SPAWN_CHANCE",
+        "2/value/chance": "RARE_STEAMPUNKSTYLE_TRADERS_SPAWN_CHANCE",
+        "3/value/chance": "RARE_STEAMPUNKSTYLE_TRADERS_SPAWN_CHANCE",
+        "4/value/chance": "METAL_TRADERWAGONS_SPAWN_CHANCE * 0.25",
+        "5/value/chance": "METAL_TRADERWAGONS_SPAWN_CHANCE",
+        "6/value/chance": "METAL_TRADERWAGONS_SPAWN_CHANCE * 0.05",
+        "7/value/chance": "COLDCLIMATE_TRADERS_SPAWN_CHANCE"
+      },
+      "bettertraders:patches/bettertraders-villages.json": {
+        "0/value/chance": "TRADER_VILLAGES_SPAWN_CHANCE"
+      },
+      "bettertraders:compatibility/bricklayers/patches/bettertraders-to-bricklayers-comp-patch.json": {
+        "0/value/chance": "BRICKLAYERS_SPAWN_CHANCE"
+      },
+      "bettertraders:compatibility/expandedfoods/patches/bettertraders-to-expandedfoods-comp-patch.json": {
+        "0/value/chance": "EXPANDEDFOODS_SPAWN_CHANCE"
+      }
+    },
+    "integer": {
+      "bettertraders:patches/bettertraders-main.json": {
+        "0/value/minGroupDistance": "MINDISTANCE",
+        "1/value/minGroupDistance": "MINDISTANCE",
+        "2/value/minGroupDistance": "MINDISTANCE",
+        "3/value/minGroupDistance": "MINDISTANCE",
+        "4/value/minGroupDistance": "MINDISTANCE",
+        "5/value/minGroupDistance": "MINDISTANCE",
+        "6/value/minGroupDistance": "MINDISTANCE",
+        "7/value/minGroupDistance": "MINDISTANCE"
+      },
+      "bettertraders:patches/bettertraders-villages.json": {
+        "0/value/minGroupDistance": "MINDISTANCE"
+      },
+      "bettertraders:compatibility/bricklayers/patches/bettertraders-to-bricklayers-comp-patch.json": {
+        "0/value/minGroupDistance": "MINDISTANCE"
+      },
+      "bettertraders:compatibility/expandedfoods/patches/bettertraders-to-expandedfoods-comp-patch.json": {
+        "0/value/minGroupDistance": "MINDISTANCE"
+      }
+    }
+  },
+  "settings": {
+    "number": {
+      "TRADERWAGONS_SPAWN_CHANCE": {
+        "name": "traderwagons_spawn_chance",
+        "comment": "Defines the spawnchance of a specific trader structure type. (default: 0.05)",
+        "default": 0.05,
+        "weight": 1.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "RARE_STEAMPUNKSTYLE_TRADERS_SPAWN_CHANCE": {
+        "name": "rare_steampunkstyle_traders_spawn_chance",
+        "comment": "Defines the spawnchance of a specific trader structure type. (default: 0.01)",
+        "default": 0.01,
+        "weight": 2.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "METAL_TRADERWAGONS_SPAWN_CHANCE": {
+        "name": "metal_traderwagons_spawn_chance",
+        "comment": "Defines the spawnchance of a specific trader structure type. (default: 0.2)",
+        "default": 0.20,
+        "weight": 3.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "COLDCLIMATE_TRADERS_SPAWN_CHANCE": {
+        "name": "coldclimate_traders_spawn_chance",
+        "comment": "Defines the spawnchance of a specific trader structure type. (default: 0.10)",
+        "default": 0.10,
+        "weight": 4.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "TRADER_VILLAGES_SPAWN_CHANCE": {
+        "name": "trader_villages_spawn_chance",
+        "comment": "Defines the spawnchance of a specific trader structure type. (default: 0.003)",
+        "default": 0.003,
+        "weight": 50.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "BRICKLAYERS_SPAWN_CHANCE": {
+        "name": "bricklayers_spawn_chance",
+        "comment": "Defines the spawnchance of bricklayers specific traders if that mod is loaded alongside bettertraders. (default: 0.03)",
+        "default": 0.030,
+        "weight": 11.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "EXPANDEDFOODS_SPAWN_CHANCE": {
+        "name": "expandedfoods_spawn_chance",
+        "comment": "Defines the spawnchance of expandedfoods specific traders if that mod is loaded alongside bettertraders. (default: 0.004)",
+        "default": 0.004,
+        "weight": 12.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      }
+    },
+    "integer": {
+      "MINDISTANCE": {
+        "name": "mindistance",
+        "comment": "Defines the distance between traders and is messured in blocks. (default: 700)",
+        "default": 700,
+        "weight": 0.5,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      }
+    }
+  },
+  "formatting": [
+    {
+      "type": "separator",
+      "title": "Trader spawn chances",
+      "weight": 0.8
+    },
+    {
+      "type": "separator",
+      "title": "Compatible mods",
+      "weight": 10.0
+    },
+    {
+      "type": "separator",
+      "title": "Mindistance between traders",
+      "text": "!!! WARNING !!!\nIf you are using other mods that add traders be sure to have the mindistance set to the same value otherwise it will mess up and not result in correct spawnchances.\nIf you are just running bettertraders and the supported mods this is no problem.",
+
+      "weight": 0.3
+    },
+    {
+      "type": "separator",
+      "title": "Trader village formations",
+      "text": "!!! WARNING !!!\nDoes not respect mindistance!\nBe careful with spawnchance changes :P.",
+      "weight": 49.8
+    }
+  ]
+}
