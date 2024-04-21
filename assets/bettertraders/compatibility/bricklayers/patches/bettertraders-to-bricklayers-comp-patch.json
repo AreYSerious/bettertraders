@@ -8,7 +8,7 @@
       "group": "trader",
       "minGroupDistance": 700, //700
       "name": "Trader Wagon",
-      "chance": 0.035,
+      "chance": 0.030,
       "offsetY": 0,
       "schematics": [
         "overground/bricklayers/*"

@@ -8,7 +8,7 @@
       "group": "trader",
       "minGroupDistance": 700, //700
       "name": "Trader Wagon",
-      "chance": 0.003,
+      "chance": 0.004,
       "offsetY": 0,
       "schematics": [
         "overground/expandedfoods/*"
