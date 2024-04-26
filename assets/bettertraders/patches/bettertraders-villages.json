@@ -5,16 +5,15 @@
     "path": "/villageTypes/-",
     "value": {
                 "code": "ruinedvillage",
-                "chance": 0.003, //0.001
+                "chance": 0.004, //0.001
                 "generator": "LooselyGrouped",
-                "quantityStructures": { "avg": 2.5, "var": 0.5 },
+                "quantityStructures": { "avg": 4, "var": 1 },
                 "schematics": [
-                  { "path": "overground/rustytraders-notent-rare/*", "offsetY": 0, "weight": 10 },
-                  { "path": "overground/rustytraders-notent-normal/*", "offsetY": 0, "weight": 100 },
+                  { "path": "overground/rustytraders-notent-rare/*", "offsetY": 0, "weight": 5 },
+                  { "path": "overground/rustytraders-notent-normal/*", "offsetY": 0, "weight": 10 },
                   { "path": "overground/rustytraders-withtent/*", "offsetY": -1, "weight": 10 },
-                  { "path": "overground/rustytraders-rare/*", "offsetY": 0, "weight": 5 },
-                  { "path": "overground/rustytraders-rare-o1/*", "offsetY": -1, "weight": 5 },
-                  { "path": "overground/statues/*", "offsetY": -1, "weight": 30 }
+                  { "path": "overground/rustytraders-rare/*", "offsetY": 0, "weight": 2 },
+                  { "path": "overground/statues/*", "offsetY": -1, "weight": 30 , "minQuantity": 1, "maxQuantity": 1}
                 ],
                 "buildProtected": true,
                 "buildProtectionName": "Trader",

@@ -33,9 +33,6 @@
         "6/value/minGroupDistance": "MINDISTANCE",
         "7/value/minGroupDistance": "MINDISTANCE"
       },
-      "bettertraders:patches/bettertraders-villages.json": {
-        "0/value/minGroupDistance": "MINDISTANCE"
-      },
       "bettertraders:compatibility/bricklayers/patches/bettertraders-to-bricklayers-comp-patch.json": {
         "0/value/minGroupDistance": "MINDISTANCE"
       },
@@ -92,8 +89,8 @@
       },
       "TRADER_VILLAGES_SPAWN_CHANCE": {
         "name": "trader_villages_spawn_chance",
-        "comment": "Defines the spawnchance of a specific trader structure type. (default: 0.003)",
-        "default": 0.003,
+        "comment": "Defines the spawnchance of a specific trader structure type. (default: 0.004)",
+        "default": 0.004,
         "weight": 50.0,
         "logarithmic": true,
         "range": {
