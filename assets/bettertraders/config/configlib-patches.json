@@ -20,6 +20,9 @@
       },
       "bettertraders:compatibility/expandedfoods/patches/bettertraders-to-expandedfoods-comp-patch.json": {
         "0/value/chance": "EXPANDEDFOODS_SPAWN_CHANCE"
+      },
+      "bettertraders:compatibility/booktrader/patches/bettertraders-to-booktrader-comp-patch.json": {
+        "0/value/chance": "BOOKTRADER_SPAWN_CHANCE"
       }
     },
     "integer": {
@@ -37,6 +40,9 @@
         "0/value/minGroupDistance": "MINDISTANCE"
       },
       "bettertraders:compatibility/expandedfoods/patches/bettertraders-to-expandedfoods-comp-patch.json": {
+        "0/value/minGroupDistance": "MINDISTANCE"
+      },
+      "bettertraders:compatibility/booktrader/patches/bettertraders-to-booktrader-comp-patch.json": {
         "0/value/minGroupDistance": "MINDISTANCE"
       }
     }
@@ -114,6 +120,17 @@
         "comment": "Defines the spawnchance of expandedfoods specific traders if that mod is loaded alongside bettertraders. (default: 0.004)",
         "default": 0.004,
         "weight": 12.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "BOOKTRADER_SPAWN_CHANCE": {
+        "name": "booktrader_spawn_chance",
+        "comment": "Defines the spawnchance of booktrader specific traders if that mod is loaded alongside bettertraders. (default: 0.03)",
+        "default": 0.2,
+        "weight": 13.0,
         "logarithmic": true,
         "range": {
           "min": 0.0,
