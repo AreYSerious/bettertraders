@@ -54,6 +54,9 @@
         "7/value/minGroupDistance": "MINDISTANCE",
         "8/value/minGroupDistance": "MINDISTANCE"
       },
+      "bettertraders:patches/bettertraders-villages.json": {
+        "0/value/minGroupDistance": "MINDISTANCE"
+      },
       "bettertraders:compatibility/bricklayers/patches/bettertraders-to-bricklayers-comp-patch.json": {
         "0/value/minGroupDistance": "MINDISTANCE"
       },
@@ -125,7 +128,7 @@
       "TRADER_VILLAGES_SPAWN_CHANCE": {
         "name": "Trader Villages Spawn Chance",
         "comment": "Defines the spawnchance of a specific trader structure type.",
-        "default": 0.004,
+        "default": 0.1,
         "weight": 50.0,
         "logarithmic": true,
         "range": {
@@ -171,7 +174,7 @@
       "MINDISTANCE": {
         "name": "Minimal distance between traders",
         "comment": "Defines the distance between traders and is messured in blocks.",
-        "default": 700,
+        "default": 600,
         "weight": 0.5,
         "logarithmic": true,
         "range": {
@@ -215,7 +218,6 @@
     {
       "type": "separator",
       "title": "Trader village formations",
-      "text": "!!! WARNING !!!\nDoes not respect mindistance!\nBe careful with spawnchance changes :P.",
       "weight": 49.8
     }
   ]

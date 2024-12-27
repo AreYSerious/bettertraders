@@ -6,7 +6,7 @@
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 700, //700
+      "minGroupDistance": 600, //700
       "name": "Trader Wagon",
       "chance": 0.025,
       "offsetY": 0,
@@ -36,7 +36,7 @@
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 700, //700
+      "minGroupDistance": 600, //700
       "name": "Trader Wagons with Tent",
       "chance": 0.05,
       "offsetY": -1,
@@ -66,7 +66,7 @@
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 700, //700
+      "minGroupDistance": 600, //700
       "name": "Rusty Trader Wagons RARE",
       "chance": 0.01,
       "offsetY": -1,
@@ -96,7 +96,7 @@
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 700, //700
+      "minGroupDistance": 600, //700
       "name": "Rusty Trader Wagons RARE",
       "chance": 0.01,
       "offsetY": 0,
@@ -126,7 +126,7 @@
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 700, //700
+      "minGroupDistance": 600, //700
       "name": "Trader Wagon",
       "chance": 0.05,
       "offsetY": -1,
@@ -156,7 +156,7 @@
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 700, //700
+      "minGroupDistance": 600, //700
       "name": "Trader Wagon",
       "chance": 0.2,
       "offsetY": 0,
@@ -186,7 +186,7 @@
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 700, //700
+      "minGroupDistance": 600, //700
       "name": "Trader Wagon",
       "chance": 0.01,
       "offsetY": 0,
@@ -247,7 +247,7 @@
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 700, //700
+      "minGroupDistance": 600, //700
       "name": "Trader Wagon",
       "chance": 0.01,
       "offsetY": 0,
