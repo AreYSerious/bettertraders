@@ -1,6 +1,22 @@
 {
-  "version": 1,
+  "version": 2,
   "patches": {
+    "boolean": {
+      "bettertraders:patches/bettertraders-main.json": {
+        "0/value/buildProtected": "CLAIMED",
+        "1/value/buildProtected": "CLAIMED",
+        "2/value/buildProtected": "CLAIMED",
+        "3/value/buildProtected": "CLAIMED",
+        "4/value/buildProtected": "CLAIMED",
+        "5/value/buildProtected": "CLAIMED",
+        "6/value/buildProtected": "CLAIMED",
+        "7/value/buildProtected": "CLAIMED",
+        "8/value/buildProtected": "CLAIMED"
+      },
+      "bettertraders:patches/bettertraders-villages.json": {
+        "0/value/buildProtected": "CLAIMED"
+      }
+     },
     "number": {
       "bettertraders:patches/bettertraders-main.json": {
         "0/value/chance": "TRADERWAGONS_SPAWN_CHANCE * 0.5",
@@ -10,7 +26,8 @@
         "4/value/chance": "METAL_TRADERWAGONS_SPAWN_CHANCE * 0.25",
         "5/value/chance": "METAL_TRADERWAGONS_SPAWN_CHANCE",
         "6/value/chance": "METAL_TRADERWAGONS_SPAWN_CHANCE * 0.05",
-        "7/value/chance": "COLDCLIMATE_TRADERS_SPAWN_CHANCE"
+        "7/value/chance": "COLDCLIMATE_TRADERS_SPAWN_CHANCE",
+        "8/value/chance": "TRACTORS_SPAWN_CHANCE"
       },
       "bettertraders:patches/bettertraders-villages.json": {
         "0/value/chance": "TRADER_VILLAGES_SPAWN_CHANCE"
@@ -34,7 +51,8 @@
         "4/value/minGroupDistance": "MINDISTANCE",
         "5/value/minGroupDistance": "MINDISTANCE",
         "6/value/minGroupDistance": "MINDISTANCE",
-        "7/value/minGroupDistance": "MINDISTANCE"
+        "7/value/minGroupDistance": "MINDISTANCE",
+        "8/value/minGroupDistance": "MINDISTANCE"
       },
       "bettertraders:compatibility/bricklayers/patches/bettertraders-to-bricklayers-comp-patch.json": {
         "0/value/minGroupDistance": "MINDISTANCE"
@@ -50,8 +68,8 @@
   "settings": {
     "number": {
       "TRADERWAGONS_SPAWN_CHANCE": {
-        "name": "traderwagons_spawn_chance",
-        "comment": "Defines the spawnchance of a specific trader structure type. (default: 0.05)",
+        "name": "Traderwagons",
+        "comment": "Defines the spawnchance of a specific trader structure type.",
         "default": 0.05,
         "weight": 1.0,
         "logarithmic": true,
@@ -61,8 +79,8 @@
         }
       },
       "RARE_STEAMPUNKSTYLE_TRADERS_SPAWN_CHANCE": {
-        "name": "rare_steampunkstyle_traders_spawn_chance",
-        "comment": "Defines the spawnchance of a specific trader structure type. (default: 0.01)",
+        "name": "Rare Steampunkstyle",
+        "comment": "Defines the spawnchance of a specific trader structure type.",
         "default": 0.01,
         "weight": 2.0,
         "logarithmic": true,
@@ -72,8 +90,8 @@
         }
       },
       "METAL_TRADERWAGONS_SPAWN_CHANCE": {
-        "name": "metal_traderwagons_spawn_chance",
-        "comment": "Defines the spawnchance of a specific trader structure type. (default: 0.2)",
+        "name": "Metal Traderwagons",
+        "comment": "Defines the spawnchance of a specific trader structure type.",
         "default": 0.20,
         "weight": 3.0,
         "logarithmic": true,
@@ -82,9 +100,20 @@
           "max": 10.0
         }
       },
+      "TRACTORS_SPAWN_CHANCE": {
+        "name": "Tractors",
+        "comment": "Defines the spawnchance of a specific trader structure type.",
+        "default": 0.10,
+        "weight": 3.2,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
       "COLDCLIMATE_TRADERS_SPAWN_CHANCE": {
-        "name": "coldclimate_traders_spawn_chance",
-        "comment": "Defines the spawnchance of a specific trader structure type. (default: 0.10)",
+        "name": "Coldclimate Traders",
+        "comment": "Defines the spawnchance of a specific trader structure type.",
         "default": 0.10,
         "weight": 4.0,
         "logarithmic": true,
@@ -94,8 +123,8 @@
         }
       },
       "TRADER_VILLAGES_SPAWN_CHANCE": {
-        "name": "trader_villages_spawn_chance",
-        "comment": "Defines the spawnchance of a specific trader structure type. (default: 0.004)",
+        "name": "Trader Villages Spawn Chance",
+        "comment": "Defines the spawnchance of a specific trader structure type.",
         "default": 0.004,
         "weight": 50.0,
         "logarithmic": true,
@@ -105,8 +134,8 @@
         }
       },
       "BRICKLAYERS_SPAWN_CHANCE": {
-        "name": "bricklayers_spawn_chance",
-        "comment": "Defines the spawnchance of bricklayers specific traders if that mod is loaded alongside bettertraders. (default: 0.03)",
+        "name": "Bricklayers Traders",
+        "comment": "Defines the spawnchance of bricklayers specific traders if that mod is loaded alongside bettertraders.",
         "default": 0.030,
         "weight": 11.0,
         "logarithmic": true,
@@ -116,8 +145,8 @@
         }
       },
       "EXPANDEDFOODS_SPAWN_CHANCE": {
-        "name": "expandedfoods_spawn_chance",
-        "comment": "Defines the spawnchance of expandedfoods specific traders if that mod is loaded alongside bettertraders. (default: 0.004)",
+        "name": "Expandedfoods Traders",
+        "comment": "Defines the spawnchance of expandedfoods specific traders if that mod is loaded alongside bettertraders.",
         "default": 0.004,
         "weight": 12.0,
         "logarithmic": true,
@@ -127,8 +156,8 @@
         }
       },
       "BOOKTRADER_SPAWN_CHANCE": {
-        "name": "booktrader_spawn_chance",
-        "comment": "Defines the spawnchance of booktrader specific traders if that mod is loaded alongside bettertraders. (default: 0.03)",
+        "name": "Booktrader Traders",
+        "comment": "Defines the spawnchance of booktrader specific traders if that mod is loaded alongside bettertraders.",
         "default": 0.2,
         "weight": 13.0,
         "logarithmic": true,
@@ -140,15 +169,23 @@
     },
     "integer": {
       "MINDISTANCE": {
-        "name": "mindistance",
-        "comment": "Defines the distance between traders and is messured in blocks. (default: 700)",
+        "name": "Minimal distance between traders",
+        "comment": "Defines the distance between traders and is messured in blocks.",
         "default": 700,
         "weight": 0.5,
         "logarithmic": true,
         "range": {
           "min": 0,
-          "max": 100000
+          "max": 40000
         }
+      }
+    },
+    "boolean": {
+      "CLAIMED": {
+        "name": "Claimed Trader Structures",
+        "comment": "If set to false, then future trader structures will not be claimed. Already generated structures will not be affected.",
+        "default": true,
+        "weight": 0.22
       }
     }
   },
@@ -162,6 +199,11 @@
       "type": "separator",
       "title": "Compatible mods",
       "weight": 10.0
+    },
+    {
+      "type": "separator",
+      "title": "Claiming",
+      "weight": 0.21
     },
     {
       "type": "separator",
