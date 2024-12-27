@@ -1,0 +1,38 @@
+[
+  // New Traders
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value":   {
+      "code": "tradercavaran",
+      "group": "trader",
+      "minGroupDistance": 700, //700
+      "name": "Trader Wagon",
+      "chance": 0.2,
+      "offsetY": -1,
+      "schematics": [
+        "game:overground/tradeoutposts/settlement/booktraderschematic1"
+      ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "packeddirt",
+        "game:packeddirt",
+        "cob-none",
+        "game:cob-none"
+      ],
+      "postPass": true,
+      "suppressTrees": true,
+      "minTemp": -12,
+      "placement": "surface"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "booktrader"
+      }
+    ]
+  }
+]
