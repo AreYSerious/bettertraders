@@ -240,5 +240,35 @@
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value":   {
+      "code": "tradercavaran",
+      "group": "trader",
+      "minGroupDistance": 700, //700
+      "name": "Trader Wagon",
+      "chance": 0.01,
+      "offsetY": 0,
+      "schematics": [
+        "overground/tractors/*"
+      ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "packeddirt",
+        "game:packeddirt",
+        "cob-none",
+        "game:cob-none"
+      ],
+      "postPass": true,
+      "minTemp": -12,
+      "suppressTrees": true,
+      "placement": "surface"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
   }
 ]
